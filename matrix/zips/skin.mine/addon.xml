@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="skin.mine" version="3.4.32" name="MyAmber" provider-name="Spark">
+    <requires>
+        <import addon="xbmc.gui" version="5.15.0"/>
+        <import addon="script.favourites" version="7.1.1"/>
+        <import addon="resource.uisounds.amber" version="1.0.0"/>
+        <import addon="script.skinshortcuts" version="1.0.17"/>
+    </requires>
+    <extension point="xbmc.gui.skin" debugging="false">
+        <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
+        <forum>https://forum.kodi.tv/forumdisplay.php?fid=203</forum>
+        <source>https://github.com/bartolomesoriano/skin.amber</source>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+            <screenshot>resources/screenshot01.jpg</screenshot>
+            <screenshot>resources/screenshot02.jpg</screenshot>
+            <screenshot>resources/screenshot03.jpg</screenshot>
+            <screenshot>resources/screenshot04.jpg</screenshot>
+            <screenshot>resources/screenshot05.jpg</screenshot>
+            <screenshot>resources/screenshot06.jpg</screenshot>
+            <screenshot>resources/screenshot07.jpg</screenshot>
+            <screenshot>resources/screenshot08.jpg</screenshot>
+            <screenshot>resources/screenshot09.jpg</screenshot>
+            <screenshot>resources/screenshot10.jpg</screenshot>
+        </assets>
+        <news>3.4.32 (11-01-2022)
+		- Allow different view types for PVR
+		- Search for trailer and play trailer in window (video info)
+		- Date added and Last Played in video info dialog
+		- Linked movie info in episodes list dialog
+		- Many, many fixes!
+		3.4.31 (28-10-2021)
+		- Shelf Info for 2 shelves together
+		- Episodes List button in OSD
+		- Misc. fixes
+		3.4.30 (17-10-2021)
+		- Show Info for shelf items
+		- Search movies by tag
+		- Many misc. fixes
+        </news>
+        <summary lang="en_GB">No bloatware, just your media with an easy to navigate interface</summary>
+        <summary lang="en_US">No bloatware, just your media with an easy to navigate interface</summary>
+		<description lang="en_GB">No bloatware, just your media with an easy to navigate interface.[CR]Uses some textures from Mediastream and Aeon skins.</description>
+        <description lang="en_US">No bloatware, just your media with an easy to navigate interface.[CR]Uses some textures from Mediastream and Aeon skins.</description>
+    </extension>
+</addon>
